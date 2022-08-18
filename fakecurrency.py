@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix
 
-data = pd.read_csv('data_banknote_authentication.txt', header=None)
+data = pd.read_csv('https://raw.githubusercontent.com/amankharwal/Website-data/master/data_banknote_authentication.txt', header=None)
 data.columns = ['var', 'skew', 'curt', 'entr', 'auth']
 print(data.head())
 
